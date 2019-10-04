@@ -13,18 +13,6 @@ http://sqlitebrowser.org/
 This program crawls a web site and pulls a series of pages into the
 database, recording the links between pages.
 
-Note: Windows has difficulty in displaying UTF-8 characters
-in the console so for each console window you open, you may need
-to type the following command before running this code:
-
-    chcp 65001
-
-http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-how
-
-Mac: rm spider.sqlite
-Mac: python3 spider.py
-
-Win: del spider.sqlite
 Win: spider.py
 
 Enter web url or enter: http://www.dr-chuck.com/
@@ -151,10 +139,6 @@ You can view this data by opening the file force.html in your web browser.
 This shows an automatic layout of the nodes and links.  You can click and 
 drag any node and you can also double click on a node to find the URL
 that is represented by the node.
-
-This visualization is provided using the force layout from:
-
-http://mbostock.github.com/d3/
 
 If you rerun the other utilities and then re-run spjson.py - you merely
 have to press refresh in the browser to get the new data from spider.js.
